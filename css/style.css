@@ -618,7 +618,6 @@ h6 {
   display: flex;
   gap: 8px;
   margin-bottom: 1.5rem;
-  overflow: scroll;
 }
 
 .standart-page__characteristics {
@@ -1927,6 +1926,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .standart-page__photo-items {
+    overflow-x: scroll;
   }
 
   .contact__content {
